@@ -1,1 +1,63 @@
+@media (min-width: 1024px){
+    body{
+        background-color: blue;
+        /* font-size: 25px;  */
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* #small{
+        display: none;   
+    }
+    #medium{
+        display: none;
+    }
+    #large{
+        visibility:visible;
+    } */
+}
+
+@media (max-width: 1024px) and (min-width: 480px){
+    body{
+        background-color: green;
+        /* font-size: 20px; */
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #small{
+        flex: 2;
+    }
+    #medium{
+        flex: 1;
+    }
+
+    /* #small{
+        display: none;
+    }
+    #medium{
+        visibility:visible;
+    }
+    #large{
+        display: none;
+    } */
+}
+
+@media (max-width: 480px){
+    body{
+        background-color: red;
+        /* font-size: 15px; */
+    }
+
+    /* #small{
+        visibility: visible;
+    }
+    #medium{
+        display: none;
+    }   
+    #large{
+        display: none;
+    } */
+}
+
 
